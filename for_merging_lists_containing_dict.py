@@ -1,9 +1,9 @@
-# 2‚Â‚ÌƒŠƒXƒg‚ğ—pˆÓ‚·‚é
+# 2ã¤ã®ãƒªã‚¹ãƒˆã‚’ç”¨æ„ã™ã‚‹
 list1 = [{"key1": "value1"}, {"key2": "value2"}, {"key3": "value3"}]
 list2 = [{"key3": "new_value3"}, {"key4": "value4"}, {"key5": "value5"}]
 
-# ƒ}[ƒW‚·‚é
+# é‡è¤‡ãªã—ã§ãƒãƒ¼ã‚¸ã™ã‚‹
 merged_list = list1 + [d for d in list2 if d not in list1]
 
-# Œ‹‰Ê‚ğo—Í‚·‚é
+# çµæœã‚’å‡ºåŠ›ã™ã‚‹
 print(merged_list)
